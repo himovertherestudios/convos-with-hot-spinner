@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <title>Convos with HOT Spinner</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Great+Vibes&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Convos with HOT</h1>
+    <img src="wm2018_white_3d.png" alt="HOT Logo" style="width:200px;margin-bottom:20px;">
+    <h1 style="font-family: 'Great Vibes', cursive;">Convos with HOT</h1>
     <div class="spinner-container">
         <label for="category">Choose a category:</label>
         <select id="category" onchange="populateQuestions()">
@@ -21,6 +23,9 @@
         <button onclick="spinQuestion()">Spin</button>
         <div id="question-box" class="fade-in">Click 'Spin' to get a HOT question</div>
     </div>
+    <footer>
+        <p>Powered by <a href="https://www.himoverthere.com" target="_blank">@himovertherestudios</a></p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

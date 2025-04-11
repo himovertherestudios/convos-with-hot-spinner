@@ -53,5 +53,4 @@ function spinQuestion() {
     }, 1000);
 }
 
-// Initialize with all questions
 populateQuestions();
