@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Convos with HOT Spinner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Convos with HOT</h1>
+    <div class="spinner-container">
+        <label for="category">Choose a category:</label>
+        <select id="category" onchange="populateQuestions()">
+            <option value="all">All</option>
+            <option value="Wild for Creators">Wild for Creators</option>
+            <option value="Funny & Unexpected">Funny & Unexpected</option>
+            <option value="Fan Zone">Fan Zone</option>
+            <option value="This or That">This or That</option>
+            <option value="Deep AF">Deep AF</option>
+        </select>
+        <button onclick="spinQuestion()">Spin</button>
+        <div id="question-box" class="fade-in">Click 'Spin' to get a HOT question</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

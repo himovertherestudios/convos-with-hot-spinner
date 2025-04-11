@@ -1,0 +1,36 @@
+
+body {
+    background-color: #121212;
+    color: #f2de9b;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.spinner-container {
+    background: #202216;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 700px;
+    margin: auto;
+}
+select, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+}
+#question-box {
+    margin-top: 30px;
+    font-size: 1.5em;
+    min-height: 80px;
+}
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
